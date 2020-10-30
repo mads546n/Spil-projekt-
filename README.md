@@ -12,18 +12,22 @@ Gruppe:
   - Dodger. 
 
 Ny projektbeskrivelse:
+
 Udvalgt ide = Snake-platformer.
+
 Vi vil gerne lave et Snake-game som har platformer-elementer i formen af forhindringer på banen. Snake-Platformer skal fungere som det typiske Snake-spil, som kan findes på Google osv. - hvor man starter ud som en kort "slange", og målet med spillet er at indsamle så mange "frugter" eller "powerups" som muligt. Hvert "powerup" gør slangen længere, og spillet handler om at blive så lang som muligt. Hvis man rører væggene, en forhindring eller sig selv, så afsluttes spillet og genstartes. Før spillet genstarter, får man vist antallet af powerups, som man har indsamlet, så man har en highscore at slå. Forhindringerne på banen består af små vægge, som er tilfældigt placeret, hver gang man spiller spillet. "Powerups" placeres tilfældigt, hver gang man spiller, og når man samler et "powerup" op, så spawner der et nyt. Der er aldrig mere end et "powerup" af gangen. 
 
 Spillet skal designes vha. Javascript, P5, HTML og muligvis CSS. 
 
-Alle medlemmer i gruppen skal gerne stå for en 1/3 af arbejdet, der er krævet for at færdiggøre spillet.'
+Alle medlemmer i gruppen skal gerne stå for en 1/3 af arbejdet, der er krævet for at færdiggøre spillet.
 Vi kommer til at føre fælles logbog under hele processen og have små versioner af spillet klar til aflevering til de små milestones. 
 
-
+_________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:
+
 Udvalgt ide = Virtual Novel.
+
 Vi vil gerne lave en virtuel novelle som har en tilhørende storyline, som potentielt kan ændre sig ved at foretage valg under udspilningen af spillet. Spillet skal indeholde en masse forskellige karakterer, scener samt en masse dialog imellem karakterene. Historien skal kunne udspille sig på forskellige måder vha. valgene, man skal træffe i spillet, og spillet skal have forskellige slutninger afhængig af disse valg. Nogle negative slutninger og nogle positive slutninger. Man spiller selv en karakter i spillet, som spiller en rolle. Da det kan være udfordrende at skrive en kode og nok historie til, at spillet kan udvikle sig på mange forskellige måder, så vil vi kun lave få spil-ændrende valg og flere valg, som ikke nødvendigvis ændrer handlingen lige så drastisk. Vi tænker i øjeblikket, at spillet skal have 2 spil- og handlings-ændrende valg, så der i alt er 4 mulige resultater og slutninger. 
 
 Spillet skal tage form som et uskyldigt, positivt og glad spil, men spillet skal gennemgå en dramatisk ændring ind til et horror og gyser spil. Spillet skal ikke nødvendigvis indeholde jump-scares, men rettere en skræmmende atmosfære. 

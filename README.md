@@ -26,7 +26,9 @@ Vi kommer til at føre fælles logbog under hele processen og have små versione
 
  - 12-11-2020:
 I dag er programmeringsfasen gået igang. Vi er længere bagud, end vi havde forventet, da vi valgte at genoverveje vores emne og endte med at skifte emne. Vi har dog arbejdet hårdt i dag med både programmering, idegénerering og research. Vores basiske Snake-game er snart færdiggjort, men med den tid er den svære fase af programmeringen igangsat, da vi ønsker at lave power-ups og forhindringer i spillet. Arbejdsindsatsen og gruppekommunikationen har været yderst effektiv i dag, og vi er alle optimistiske med opgaven, og at vi gerne skal have noget at aflevere til første milestone. 
- 
+
+ - 17-11-2020:
+I dag har vi oplevet problemer med GitHub, og der har derfor ikke været nogle commits, men kodningsprocessen er fortsat. Fremskridt vil blive commited næste gang, hvor vi får mulighed for at arbejde med projektet. Selvom vi har haft denne udfordring, har vi stadig fortsat arbejdsindsatsen, men pga. udfordringen har vi desværre ikke nået at lave lige så meget arbejde, som vi havde håbet på.  
 _________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:

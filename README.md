@@ -29,6 +29,9 @@ I dag er programmeringsfasen gået igang. Vi er længere bagud, end vi havde for
 
  - 17-11-2020:
 I dag har vi oplevet problemer med GitHub, og der har derfor ikke været nogle commits, men kodningsprocessen er fortsat. Fremskridt vil blive commited næste gang, hvor vi får mulighed for at arbejde med projektet. Selvom vi har haft denne udfordring, har vi stadig fortsat arbejdsindsatsen, men pga. udfordringen har vi desværre ikke nået at lave lige så meget arbejde, som vi havde håbet på.  
+
+ - 18-11-2020:
+I dag er programmeringsfasen fortsat. Vi er stadig langt fra færdige med det endelige produkt, men de grundlæggende elementer i Snake er ved at være færdiggjorte. Næste gang vil vi gerne have tilføjet en death-screen med en genstart-knap og evt. et scoreboard. Vi vil også gerne forbedre grænserne, som bestemmer, hvornår slangen er død. Der har været problemer for bestemte medlemmer af gruppen med at få adgang til vores Git-hub-repository, men disse problemer skulle gerne være løst. Der har ikke været meget tid at arbejde i i dette modul, så vores fremskridt er meget begrænset. Vi er optimistiske om, at vi får endnu mere lavet næste gang, da der meget gerne ikke skulle være nogle problemer, som spænder ben.   
 _________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:

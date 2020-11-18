@@ -16,7 +16,6 @@ function madLokation() {
     var gitterBredde = floor(height/gitter); 
     mad = createVector(floor(random(gitterLaengde)), floor(random(gitterBredde)));
     mad.mult(gitter);
-    
 }
 
 function draw() {
@@ -24,6 +23,7 @@ function draw() {
     fill(col); 
     s.update();
     s.show(); 
+    s.død();
 
     if (s.eat(mad)) {
         madLokation();
@@ -53,6 +53,18 @@ function Slange() {
             return true; 
         } else { 
           return false; 
+        }
+    }
+
+    this.død = function() {
+        for (var i = 0; i < this.hale.length; i++) {
+            var pos = this.hale[i];
+            var d = dist(this.x, this.y, pos.x, pos.y);
+            if (d < 1) {
+                console.log('Starter Forfra')
+                this.total = 0;
+                this.hale = [];
+            }
         }
     }
 

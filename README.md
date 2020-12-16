@@ -32,6 +32,9 @@ I dag har vi oplevet problemer med GitHub, og der har derfor ikke været nogle c
 
  - 18-11-2020:
 I dag er programmeringsfasen fortsat. Vi er stadig langt fra færdige med det endelige produkt, men de grundlæggende elementer i Snake er ved at være færdiggjorte. Næste gang vil vi gerne have tilføjet en death-screen med en genstart-knap og evt. et scoreboard. Vi vil også gerne forbedre grænserne, som bestemmer, hvornår slangen er død. Der har været problemer for bestemte medlemmer af gruppen med at få adgang til vores Git-hub-repository, men disse problemer skulle gerne være løst. Der har ikke været meget tid at arbejde i i dette modul, så vores fremskridt er meget begrænset. Vi er optimistiske om, at vi får endnu mere lavet næste gang, da der meget gerne ikke skulle være nogle problemer, som spænder ben.   
+
+ - 16-12-2020:
+Programmeringsfasen er midlertidigt stoppet, eftersom vi har arbejdet på sprites og lign. grafiske ideer til vores projekt. Vi har udarbejdet en sprite til slangen og et logo, i form af en gif, til vores spil. Vi har også brainstormet ideer til, hvordan vi integrerer vores ideer i vores spil, f.eks. hvordan vi laver powerups og obstacles. Vi udarbejder også nuværende sprites til vores powerups, obstacles og banen. 
 _________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:

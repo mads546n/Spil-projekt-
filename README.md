@@ -35,6 +35,9 @@ I dag er programmeringsfasen fortsat. Vi er stadig langt fra færdige med det en
 
  - 16-12-2020:
 Programmeringsfasen er midlertidigt stoppet, eftersom vi har arbejdet på sprites og lign. grafiske ideer til vores projekt. Vi har udarbejdet en sprite til slangen og et logo, i form af en gif, til vores spil. Vi har også brainstormet ideer til, hvordan vi integrerer vores ideer i vores spil, f.eks. hvordan vi laver powerups og obstacles. Vi udarbejder også nuværende sprites til vores powerups, obstacles og banen. 
+
+ - 08-01-2020:
+ Vi har ikke skrevet logbog visse dage i forløbet grundet SOP og andre opgaver, samt at vi har haft gang i at udvikle sprites og lave research, om hvordan vi skal udvide spillet. I dag har vi gennemgået koden, så alle er indforstået med, hvordan koden fungerer, også har vi sat fælles mål og opgaver, så alle kan lave noget uden at skulle vente på andre medlemmer af gruppen til at færdiggøre deres gøremål. Vi har fundet en løsning på et problem i vores kode, men har har ikke nået at integrere løsningen i koden. Det må vi få gjort næste gang. 
 _________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:

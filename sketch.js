@@ -23,7 +23,7 @@ function draw() {
     fill(col); 
     s.update();
     s.show(); 
-    s.død();
+    s.doed();
 
     if (s.eat(mad)) {
         madLokation();
@@ -56,12 +56,14 @@ function Slange() {
         }
     }
 
-    this.død = function() {
+    this.doed = function() {
         for (var i = 0; i < this.hale.length; i++) {
             var pos = this.hale[i];
             var d = dist(this.x, this.y, pos.x, pos.y);
             if (d < 1) {
-                console.log('Starter Forfra')
+                console.log('Starter Forfra')  
+                alert("Du er død!   " + "   Du har spist " + this.total + " frugt(er)");
+                location.reload(); 
                 this.total = 0;
                 this.hale = [];
             }

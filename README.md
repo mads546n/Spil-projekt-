@@ -38,6 +38,9 @@ Programmeringsfasen er midlertidigt stoppet, eftersom vi har arbejdet på sprite
 
  - 08-01-2020:
  Vi har ikke skrevet logbog visse dage i forløbet grundet SOP og andre opgaver, samt at vi har haft gang i at udvikle sprites og lave research, om hvordan vi skal udvide spillet. I dag har vi gennemgået koden, så alle er indforstået med, hvordan koden fungerer, også har vi sat fælles mål og opgaver, så alle kan lave noget uden at skulle vente på andre medlemmer af gruppen til at færdiggøre deres gøremål. Vi har fundet en løsning på et problem i vores kode, men har har ikke nået at integrere løsningen i koden. Det må vi få gjort næste gang. 
+ 
+ - 13-01-2020: 
+Vi har fortsat programmeringsfasen. Vi har opdelt opgaverne, så vi kan arbejde hurtigere, og alle i gruppen kan få lavet noget arbejde. Vi har tilføjet en meget primitiv death-screen, som senere skal udvikle sig grafisk. Vi har også iværksat power-up-programmeringsfasen af vores spil, men denne er dog langt fra færdiggjort endnu. 
 _________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:

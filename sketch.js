@@ -62,7 +62,7 @@ function draw() {
     fill(255, 0, 100); 
     rect(mad.x, mad.y, gitter, gitter);
 
-    // Tjekker om Poison er slÃ¥et til og sÃ¸rger for at draw hver eneste Poison brik.
+    // Tjekker om Poison er slået til og sørger for at draw hver eneste Poison brik.
     if (options.poison === true) {
         fill(128,0,128)
         for (let i = 0; i < poisonArray.length; i++) {
@@ -111,7 +111,7 @@ function Slange() {
                 }
             }
 
-            // Tjekker om vi enten rammer os selv, vÃ¦ggen eller en Poison
+            // Tjekker om vi enten rammer os selv, væggen eller en Poison
             if (d < 1 || poisonRamt === true) {
                 console.log('Starter Forfra')
                 this.total = 0;
@@ -144,7 +144,7 @@ function Slange() {
         rect(this.x, this.y, gitter, gitter);
     }
 
-    // TilfÃ¸jet en switch case keyhandler der gÃ¸r brug af "W S A D" Mit keyboard ville Ã¥benbart ikke gÃ¸re brug af piletaster...
+    // Tilføjet en switch case keyhandler der gør brug af "W S A D"
     function keyHandler(event) {
         switch (event.keyCode) {
             case 119: s.dir(0, -1); break;

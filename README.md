@@ -39,8 +39,11 @@ Programmeringsfasen er midlertidigt stoppet, eftersom vi har arbejdet på sprite
  - 08-01-2020:
  Vi har ikke skrevet logbog visse dage i forløbet grundet SOP og andre opgaver, samt at vi har haft gang i at udvikle sprites og lave research, om hvordan vi skal udvide spillet. I dag har vi gennemgået koden, så alle er indforstået med, hvordan koden fungerer, også har vi sat fælles mål og opgaver, så alle kan lave noget uden at skulle vente på andre medlemmer af gruppen til at færdiggøre deres gøremål. Vi har fundet en løsning på et problem i vores kode, men har har ikke nået at integrere løsningen i koden. Det må vi få gjort næste gang. 
  
- - 13-01-2020: 
+ - 13-01-2021: 
 Vi har fortsat programmeringsfasen. Vi har opdelt opgaverne, så vi kan arbejde hurtigere, og alle i gruppen kan få lavet noget arbejde. Vi har tilføjet en meget primitiv death-screen, som senere skal udvikle sig grafisk. Vi har også iværksat power-up-programmeringsfasen af vores spil, men denne er dog langt fra færdiggjort endnu. 
+
+ - 14-01-2021:
+Vi har integreret et poison-system i vores spil-kode. Nu kan man samle negative powerups op, som vi kalder "poison". Disse poisons forgifter slangen, hvis man spiser dem i  spillet. Hvis man samler en af dem op, så slutter spillet. Vi vil gerne opstille et system, hvor man skal opsamle en bestemt mængde af dem for at tabe spillet i stedet for at tabe efter at have samlet en enkelt op. Vi har også overvejet, at poisons skal fjerne et led af slangens hale, hvis den samles op. Vi skal også have integreret powerups, som har forskellige funktioner, og dette begynder vi gerne på næste gang. I vores endelige hovedmenu skal der også angives, hvad de enkelte powerups / poisons gør, så man kender til de forskellige elementer af spillet, før man starter spillet. 
 _________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:

@@ -47,6 +47,9 @@ Programmeringsfasen fortsætter, og vi har hver især igangsat forskellige gøre
 
  - 27-01-2020: 
 Programmeringsfasen fortsætter, og vi har hver især fortsat med at udvikle vores forskellige aspekter af spillet. Poisons-projektet er nu fungerende, men der mangler stadig nogle små tilpasninger, og powerups mangler stadig at integreres. Selve essensen eller skelettet af vores "consumeables" fungerer, men vi mangler stadig at integrere grafiske  effekter. Obstacle-projektet er skredt frem, men stadig langt fra færdigt. 
+
+ - 29-01-2020:
+Programmeringsfasen fortsætter igen. Vi er igang med at designe powerups, og dette burde ikke være sønderligt besværgeligt, eftersom powerups skal programmeres på samme måde som poisons. Det er lykkedes at opstille obstacles i form af mure og vægge, men de har stadig ikke en direkte affekt på spillet, hvis spilleren interagerer med dem.
 ________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:

@@ -40,8 +40,14 @@ Programmeringsfasen er midlertidigt stoppet, eftersom vi har arbejdet på sprite
  Vi har ikke skrevet logbog visse dage i forløbet grundet SOP og andre opgaver, samt at vi har haft gang i at udvikle sprites og lave research, om hvordan vi skal udvide spillet. I dag har vi gennemgået koden, så alle er indforstået med, hvordan koden fungerer, også har vi sat fælles mål og opgaver, så alle kan lave noget uden at skulle vente på andre medlemmer af gruppen til at færdiggøre deres gøremål. Vi har fundet en løsning på et problem i vores kode, men har har ikke nået at integrere løsningen i koden. Det må vi få gjort næste gang. 
  
  - 13-01-2020: 
-Vi har fortsat programmeringsfasen. Vi har opdelt opgaverne, så vi kan arbejde hurtigere, og alle i gruppen kan få lavet noget arbejde. Vi har tilføjet en meget primitiv death-screen, som senere skal udvikle sig grafisk. Vi har også iværksat power-up-programmeringsfasen af vores spil, men denne er dog langt fra færdiggjort endnu. 
-_________________________________________________________________________________________________________________________________________________________________________________
+Vi har fortsat programmeringsfasen. Vi har opdelt opgaverne, så vi kan arbejde hurtigere, og alle i gruppen kan få lavet noget arbejde. Vi har tilføjet en meget primitiv death-screen, som senere skal udvikle sig grafisk. Vi har også iværksat power-up-programmeringsfasen af vores spil, men denne er dog langt fra færdiggjort endnu.
+
+ - 20-01-2020:
+Programmeringsfasen fortsætter, og vi har hver især igangsat forskellige gøremål. Asger Dokkedal er gået igang med at arbejde på at opstille murer og forhindringer på spil-banen. Ian er gået igang med at lave powerups, poisons og effekterne, som spilleren opnår, hvis man optager poisons eller powerups. Mads fortsætter med at udbygge en main-menu og arbejde på nogle grafiske optimiseringer og undersøger, hvordan vi kan integrere vores sprites ind i spillet, og hvordan andre elementer som f.eks. murerne skal se ud, når spillet bliver færdiggjort.
+
+ - 27-01-2020: 
+Programmeringsfasen fortsætter, og vi har hver især fortsat med at udvikle vores forskellige aspekter af spillet. Poisons-projektet er nu fungerende, men der mangler stadig nogle små tilpasninger, og powerups mangler stadig at integreres. Selve essensen eller skelettet af vores "consumeables" fungerer, men vi mangler stadig at integrere grafiske  effekter. Obstacle-projektet er skredt frem, men stadig langt fra færdigt. 
+________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:
 

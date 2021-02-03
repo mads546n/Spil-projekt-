@@ -36,24 +36,12 @@ I dag er programmeringsfasen fortsat. Vi er stadig langt fra færdige med det en
  - 16-12-2020:
 Programmeringsfasen er midlertidigt stoppet, eftersom vi har arbejdet på sprites og lign. grafiske ideer til vores projekt. Vi har udarbejdet en sprite til slangen og et logo, i form af en gif, til vores spil. Vi har også brainstormet ideer til, hvordan vi integrerer vores ideer i vores spil, f.eks. hvordan vi laver powerups og obstacles. Vi udarbejder også nuværende sprites til vores powerups, obstacles og banen. 
 
- - 08-01-2021:
+ - 08-01-2020:
  Vi har ikke skrevet logbog visse dage i forløbet grundet SOP og andre opgaver, samt at vi har haft gang i at udvikle sprites og lave research, om hvordan vi skal udvide spillet. I dag har vi gennemgået koden, så alle er indforstået med, hvordan koden fungerer, også har vi sat fælles mål og opgaver, så alle kan lave noget uden at skulle vente på andre medlemmer af gruppen til at færdiggøre deres gøremål. Vi har fundet en løsning på et problem i vores kode, men har har ikke nået at integrere løsningen i koden. Det må vi få gjort næste gang. 
  
- - 13-01-2021: 
-Vi har fortsat programmeringsfasen. Vi har opdelt opgaverne, så vi kan arbejde hurtigere, og alle i gruppen kan få lavet noget arbejde. Vi har tilføjet en meget primitiv death-screen, som senere skal udvikle sig grafisk. Vi har også iværksat power-up-programmeringsfasen af vores spil, men denne er dog langt fra færdiggjort endnu.
-
- - 20-01-2021:
-Programmeringsfasen fortsætter, og vi har hver især igangsat forskellige gøremål. Asger Dokkedal er gået igang med at arbejde på at opstille murer og forhindringer på spil-banen. Ian er gået igang med at lave powerups, poisons og effekterne, som spilleren opnår, hvis man optager poisons eller powerups. Mads fortsætter med at udbygge en main-menu og arbejde på nogle grafiske optimiseringer og undersøger, hvordan vi kan integrere vores sprites ind i spillet, og hvordan andre elementer som f.eks. murerne skal se ud, når spillet bliver færdiggjort.
-
- - 27-01-2021: 
-Programmeringsfasen fortsætter, og vi har hver især fortsat med at udvikle vores forskellige aspekter af spillet. Poisons-projektet er nu fungerende, men der mangler stadig nogle små tilpasninger, og powerups mangler stadig at integreres. Selve essensen eller skelettet af vores "consumeables" fungerer, men vi mangler stadig at integrere grafiske  effekter. Obstacle-projektet er skredt frem, men stadig langt fra færdigt. 
-
- - 29-01-2021:
-Programmeringsfasen fortsætter igen. Vi er igang med at designe powerups, og dette burde ikke være sønderligt besværgeligt, eftersom powerups skal programmeres på samme måde som poisons. Det er lykkedes at opstille obstacles i form af mure og vægge, men de har stadig ikke en direkte affekt på spillet, hvis spilleren interagerer med dem.
-
- - 03-02-2021:
-Programmeringsfasen fortsætter endnu en gang. Vi har videreudviklet main-menuen, men den er stadig meget primitiv. Vi ønsker at opstille et CSS-script og tilpasse nogle elementer både i script.js og index.html, så vi kan få customiseret vores main-menu yderligere, så den ser pænere ud, og så vi gerne skal kunne display en highscore og et evt. leaderboard. Vi skal også benytte CSS-scriptet til at integrere vores sprites ind i spillet. Udover det har vi lavet nogle små fremskridt med hver vores gøremål. 
-________________________________________________________________________________________________________________________________________________________________________________
+ - 13-01-2020: 
+Vi har fortsat programmeringsfasen. Vi har opdelt opgaverne, så vi kan arbejde hurtigere, og alle i gruppen kan få lavet noget arbejde. Vi har tilføjet en meget primitiv death-screen, som senere skal udvikle sig grafisk. Vi har også iværksat power-up-programmeringsfasen af vores spil, men denne er dog langt fra færdiggjort endnu. 
+_________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:
 

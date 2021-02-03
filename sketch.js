@@ -1,14 +1,18 @@
 let s; 
 var gitter = 20; 
 var mad;
+var mode; //Vurderer om spillet er startet eller ej.
+var highScore; 
 
 const col = [220, 110, 0]; 
 
 function setup() {
+    mode = 0; //Spillet er ikke startet.
+    textSize(21); 
     createCanvas(600, 600); 
     s = new Slange(); 
-    frameRate(10); 
-    madLokation(); 
+    frameRate(10);  
+    madLokation();
 }
 
 function madLokation() {
@@ -19,11 +23,19 @@ function madLokation() {
 }
 
 function draw() {
+    clear();
+    if (mode == 0) {
+        Slange(this.doed); 
+        text("Tryk ENTER for at starte spillet", 300, 300); 
+        text("Du har spist " + this.total + " frugt(er)", 300, 350); 
+    }
+    if (mode == 1) {
     background(110); 
     fill(col); 
     s.update();
     s.show(); 
     s.doed();
+    }
 
     if (s.eat(mad)) {
         madLokation();
@@ -105,4 +117,7 @@ function keyPressed() {
     }    else if (keyCode === LEFT_ARROW) {
         s.dir(-1, 0);  
     } 
+    if (keyCode == ENTER) {
+        mode=1; 
+    }
 }

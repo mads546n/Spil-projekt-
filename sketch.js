@@ -2,13 +2,11 @@ let s;
 var gitter = 20; 
 var mad;
 var mode; //Vurderer om spillet er startet eller ej.
-var highScore; 
 
 const col = [220, 110, 0]; 
 
 function setup() {
     mode = 0; //Spillet er ikke startet.
-    textSize(21); 
     createCanvas(600, 600); 
     s = new Slange(); 
     frameRate(10);  
@@ -25,16 +23,16 @@ function madLokation() {
 function draw() {
     clear();
     if (mode == 0) {
-        Slange(this.doed); 
-        text("Tryk ENTER for at starte spillet", 300, 300); 
-        text("Du har spist " + this.total + " frugt(er)", 300, 350); 
+        textSize(21); 
+        text("Tryk ENTER for at starte spillet", 250, 300);  
+        //text("Du har spist " + highScore + " frugt(er)", 300, 350); 
     }
     if (mode == 1) {
     background(110); 
-    fill(col); 
+    fill(col);
     s.update();
     s.show(); 
-    s.doed();
+    s.doed(); 
     }
 
     if (s.eat(mad)) {
@@ -73,12 +71,21 @@ function Slange() {
             var pos = this.hale[i];
             var d = dist(this.x, this.y, pos.x, pos.y);
             if (d < 1) {
-                console.log('Starter Forfra')  
-                alert("Du er død!   " + "   Du har spist " + this.total + " frugt(er)");
-                location.reload(); 
-                this.total = 0;
-                this.hale = [];
-            }
+                console.log('Starter Forfra');    
+                //alert("Du er død!   " + "   Du har spist " + this.total + " frugt(er)");
+                mode = 3;
+                if (mode = 3) {
+                    draw = false; 
+                    background(275);
+                    fill(col);
+                    textSize(25); 
+                    text("Du er død!", 300, 300);
+                    text("Du har spist " + this.total + " frugter", 250, 400);
+                }
+                //location.reload(); 
+                //this.total = 0;
+                //this.hale = [];
+            } 
         }
     }
 

@@ -53,6 +53,9 @@ Programmeringsfasen fortsætter igen. Vi er igang med at designe powerups, og de
 
  - 03-02-2021:
 Programmeringsfasen fortsætter endnu en gang. Vi har videreudviklet main-menuen, men den er stadig meget primitiv. Vi ønsker at opstille et CSS-script og tilpasse nogle elementer både i script.js og index.html, så vi kan få customiseret vores main-menu yderligere, så den ser pænere ud, og så vi gerne skal kunne display en highscore og et evt. leaderboard. Vi skal også benytte CSS-scriptet til at integrere vores sprites ind i spillet. Udover det har vi lavet nogle små fremskridt med hver vores gøremål. 
+
+ - 05-02-2021:
+Programmeringsfasen fortsætter endnu en gang. Vi har igen videreudviklet main-menuen og integreret en death-screen. Vi har også integreret og tilpasset et såkaldt "mode"-system, som beskriver, hvilket stadie spillet er i. Spillet kan enten ikke være i gang, være igang eller være stoppet resulteret af, at spilleren har tabt spillet. Både main-menu og death-screen er stadig MEGET primitive, og de kræver meget optimisation endnu for at se godt ud, men de fungerer nogenlunde, som de skal. Vi har også lavet en genstart-knap, som dog ikke er tilpasset canvas endnu. Vi har også videreudviklet obstacle-systemet, og der er sket meget fremskridt. 
 ________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:

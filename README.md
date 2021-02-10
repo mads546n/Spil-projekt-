@@ -56,6 +56,9 @@ Programmeringsfasen fortsætter endnu en gang. Vi har videreudviklet main-menuen
 
  - 05-02-2021:
 Programmeringsfasen fortsætter endnu en gang. Vi har igen videreudviklet main-menuen og integreret en death-screen. Vi har også integreret og tilpasset et såkaldt "mode"-system, som beskriver, hvilket stadie spillet er i. Spillet kan enten ikke være i gang, være igang eller være stoppet resulteret af, at spilleren har tabt spillet. Både main-menu og death-screen er stadig MEGET primitive, og de kræver meget optimisation endnu for at se godt ud, men de fungerer nogenlunde, som de skal. Vi har også lavet en genstart-knap, som dog ikke er tilpasset canvas endnu. Vi har også videreudviklet obstacle-systemet, og der er sket meget fremskridt. 
+
+ - 10-02-2021:
+Programmeringsfasen fortsætter endnu en gang. Vi har videreudviklet death-screen og arbejdet på at skjule mad-elementet, når spillet ikke er igang, men vi har haft meget svært ved dette. Vi har også skrevet en smule på rapporten og brainstormet over en flowchart, som beskriver, hvordan vores kode hænger sammen og fungerer. Obstacle-delen af programmeringsfasen er ved at være færdiggjort, men poison- og hovedspil-delene mangler stadig en smule, men vi er optimistiske om, at vi gerne skulle kunne nå disse opgaver inden deadline. Næste gang vil vi gerne arbejde videre med powerup-systemet, eftersom det stadig ikke er fuldt funktionelt. Vi vil også gerne løse problemet med, at maden stadig befinder sig på skærmen, når spillet enten er i hovedmenu-mode eller død-mode. Vi vil også gerne løse nogle små bugs i spillet, som f.eks. at slangen ikke dør, når den rammer kanten af canvas, hvis den ikke har samlet noget mad op, og at slangen kan gå direkte i modsatte retning.  
 ________________________________________________________________________________________________________________________________________________________________________________
 
 Gammel projektbeskrivelse:

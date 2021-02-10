@@ -32,7 +32,7 @@ function draw() {
     fill(col);
     s.update();
     s.show(); 
-    s.doed(); 
+    s.doed();  
     }
 
     if (s.eat(mad)) {
@@ -74,13 +74,15 @@ function Slange() {
                 console.log('Starter Forfra');    
                 //alert("Du er død!   " + "   Du har spist " + this.total + " frugt(er)");
                 mode = 3;
-                if (mode = 3) {
-                    draw = false; 
+                if (mode == 3) {
+                    draw = false;  
                     background(275);
                     fill(col);
                     textSize(25); 
                     text("Du er død!", 300, 300);
-                    text("Du har spist " + this.total + " frugter", 250, 400);
+                    text("Du har spist " + this.total + " frugter", 250, 350);
+                    text("Tryk BACKSPACE for at genstarte spillet", 150, 450); 
+                    mad.style.display = "none"; 
                 }
                 //location.reload(); 
                 //this.total = 0;
@@ -124,7 +126,10 @@ function keyPressed() {
     }    else if (keyCode === LEFT_ARROW) {
         s.dir(-1, 0);  
     } 
-    if (keyCode == ENTER) {
+    if (keyCode === ENTER) {
         mode=1; 
+    }
+    if (keyCode === BACKSPACE) { 
+        location.reload();  
     }
 }

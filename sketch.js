@@ -10,7 +10,6 @@ function setup() {
     createCanvas(600, 600); 
     s = new Slange(); 
     frameRate(10);  
-    madLokation();
 }
 
 function madLokation() {
@@ -33,7 +32,6 @@ function draw() {
     s.update();
     s.show(); 
     s.doed();  
-    }
 
     if (s.eat(mad)) {
         madLokation();
@@ -41,6 +39,7 @@ function draw() {
 
     fill(255, 0, 100); 
     rect(mad.x, mad.y, gitter, gitter); 
+    }
 }
 
 function Slange() {
@@ -48,8 +47,9 @@ function Slange() {
     this.y = 0; 
     this.xspeed = 1; 
     this.yspeed = 0; 
-    this.total = 0, 
-    this.hale = []; 
+    this.total = 1; 
+    this.hale = [];
+    this.hale[this.total-1] = createVector(this.x, this.y);  
 
     this.dir = function(x, y) {
         this.xspeed = x;
@@ -66,7 +66,7 @@ function Slange() {
         }
     }
 
-    this.doed = function() {
+    this.doed = function() { 
         for (var i = 0; i < this.hale.length; i++) {
             var pos = this.hale[i];
             var d = dist(this.x, this.y, pos.x, pos.y);
@@ -80,7 +80,7 @@ function Slange() {
                     fill(col);
                     textSize(25); 
                     text("Du er død!", 300, 300);
-                    text("Du har spist " + this.total + " frugter", 250, 350);
+                    text("Du har spist " + (this.total-1) + " frugter", 250, 350);
                     text("Tryk BACKSPACE for at genstarte spillet", 150, 450); 
                     mad.style.display = "none"; 
                 }
@@ -128,6 +128,7 @@ function keyPressed() {
     } 
     if (keyCode === ENTER) {
         mode=1; 
+        madLokation();
     }
     if (keyCode === BACKSPACE) { 
         location.reload();  

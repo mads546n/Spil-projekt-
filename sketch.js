@@ -1,6 +1,7 @@
 let s; 
 let gitter = 20;
 let mad;
+let color;
 let poisonArray = [];
 // Angiv mængden af Poison på mappet
 let poisonAmount = 3
@@ -22,6 +23,7 @@ function setup() {
     s = new Slange();
     frameRate(10); 
     madLokation();
+    colorLokation();
 
     // Hvis Poison er slået til, så set Poison lokation for mængden angivet
     if (options.poison === true) {
@@ -34,6 +36,13 @@ function madLokation() {
     const gitterBredde = floor(height / gitter);
     mad = createVector(floor(random(gitterLaengde)), floor(random(gitterBredde)));
     mad.mult(gitter);
+}
+
+function colorLokation() {
+    const gitterLaengde = floor(width / gitter);
+    const gitterBredde = floor(height / gitter);
+    color = createVector(floor(random(gitterLaengde)), floor(random(gitterBredde)));
+    color.mult(gitter);
 }
 
 // Det samme som for oven men for poison.
@@ -57,10 +66,14 @@ function draw() {
     if (s.eat(mad)) {
         madLokation();
         poisonLokation(poisonAmount)
+        colorLokation();
     }
 
     fill(255, 0, 100); 
     rect(mad.x, mad.y, gitter, gitter);
+
+    fill(110, 250, 10); 
+    rect(color.x, color.y, gitter, gitter);
 
     // Tjekker om Poison er slået til og sørger for at draw hver eneste Poison brik.
     if (options.poison === true) {
@@ -68,6 +81,10 @@ function draw() {
         for (let i = 0; i < poisonArray.length; i++) {
             rect(poisonArray[i][0], poisonArray[i][1], gitter, gitter)
         }
+    }
+
+    if (s.col(color)) {
+        colorLokation();
     }
 }
 
@@ -78,6 +95,7 @@ function Slange() {
     this.yspeed = 0;
     this.total = 0;
     this.hale = [];
+    this.farve = [220, 110, 116];
 
     this.dir = function (x, y) {
         this.xspeed = x;
@@ -88,6 +106,18 @@ function Slange() {
         const d = dist(this.x, this.y, pos.x, pos.y);
         if (d < 1) {
             this.total++;
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    this.col = function (pos) {
+        const d = dist(this.x, this.y, pos.x, pos.y);
+        if (d < 1) {
+            this.total++
+            let r = Math.floor(Math.random()*(255-0+1)+0), b = Math.floor(Math.random()*(255-0+1)+0), g = Math.floor(Math.random()*(255-0+1)+0)
+            this.farve = [r, b, g]
             return true;
         } else {
             return false;
@@ -137,7 +167,7 @@ function Slange() {
     }
 
     this.show = function () {
-        fill(255);
+        fill(this.farve);
         for (let i = 0; i < this.hale.length; i++) {
             rect(this.hale[i].x, this.hale[i].y, gitter, gitter);
         }
